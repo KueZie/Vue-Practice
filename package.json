@@ -2,7 +2,7 @@
   "name": "Vue-Practice",
   "version": "1.0.0",
   "description": "",
-  "main": "app-home.js",
+  "main": "node server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/KueZie/Vue-Practice#readme",
   "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "require": "^2.4.20",
     "vue": "^2.5.16"
   }
 }
